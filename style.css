@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color:hsl(185, 75%, 39%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg-pattern-bottom.svg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.card {
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+img {
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-image: url(images/bg-pattern-card.svg);
+    height: 150px;
+    background-size: cover;
+    
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.age {
+    font-weight: 400;
+}
+
+.name-age {
+    font-size: 19px;
+}
+
+.city {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+}
+
+.item1, .item2, .item3 {
+    margin: 20px;
+    line-height: 25px;
+
+}
+
+.meta {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 2px;
+
+}
+
